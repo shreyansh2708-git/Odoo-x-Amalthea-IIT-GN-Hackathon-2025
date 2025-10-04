@@ -1,5 +1,5 @@
 # 💸 Smart Expense Management System  
-
+# 💸 Expenzify
 <p align="center">
   <img src="https://img.shields.io/badge/Hackathon-Odoo%20x%20IIT-blueviolet?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Team-Odoobytes-orange?style=for-the-badge" />
@@ -63,3 +63,4 @@ Our solution tackles these issues by building a **smart, automated expense manag
 
 ## 🏆 Hackathon Note  
 This project was built for the **Odoo x IIT Hackathon** by **Team Odoobytes**.  
+
