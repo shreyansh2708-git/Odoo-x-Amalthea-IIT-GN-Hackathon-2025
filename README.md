@@ -8,8 +8,8 @@
 ---
 
 ## 🔗 Quick Links  
-- 🌐 [Live Demo](#https://youtu.be/UPSSm05-CgY) *(Hosted Link)*  
-- 🎥 [Demo Video](#) *(Walkthrough Video)*  
+- 🌐 [Live Demo] *(Hosted Link)*  -
+- 🎥 [Demo Video] *(Walkthrough Video)*  - https://youtu.be/UPSSm05-CgY
 
 ---
 
