@@ -8,7 +8,7 @@
 ---
 
 ## 🔗 Quick Links  
-- 🌐 [Live Demo] *(Hosted Link)*  -
+
 - 🎥 [Demo Video] *(Walkthrough Video)*  - https://youtu.be/UPSSm05-CgY
 
 ---
@@ -99,4 +99,5 @@ Companies often struggle with **manual expense reimbursement processes** that ar
 
 ## 🏆 Hackathon Note  
 This project was built for the **Odoo x IIT Hackathon** by **Team Odoobytes**.  
+
 
