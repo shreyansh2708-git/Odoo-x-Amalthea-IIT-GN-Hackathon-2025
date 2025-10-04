@@ -1,49 +1,65 @@
-Expense Management System
-An intuitive and powerful platform designed to eliminate the friction of manual expense reporting and approvals for modern companies.
+# 💸 Smart Expense Management System  
 
-About The Project
-Companies today, especially as they scale, face significant challenges with traditional expense reimbursement processes. These manual workflows are often slow, prone to human error, lack transparency, and create administrative bottlenecks for employees, managers, and finance teams alike.
+<p align="center">
+  <img src="https://img.shields.io/badge/Hackathon-Odoo%20x%20IIT-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Team-Odoobytes-orange?style=for-the-badge" />
+</p>
 
-This project aims to solve that problem by providing a centralized, automated, and highly flexible Expense Management System. It empowers organizations to define their unique approval hierarchies and rules, giving them complete control and visibility over expenses while making the process seamless for their employees. From simple submissions to complex, multi-step conditional approvals, this application is built to handle it all with ease.
+---
 
-Core Features
-👤 Role-Based Access Control
-The system is built on a robust role-based architecture, ensuring users only see and do what's relevant to them.
+## 🚀 About the Project  
 
-Admin: Has complete oversight. Manages users, configures company-wide approval workflows, and can view or override any expense claim.
+Companies often struggle with **manual expense reimbursement processes** that are:  
+- ⏳ Time-consuming  
+- ❌ Error-prone  
+- 🔍 Lacking transparency  
 
-Manager: Approves or rejects expenses submitted by their direct reports, views team spending, and participates in the approval chain.
+Our solution tackles these issues by building a **smart, automated expense management system** with flexible approval workflows and OCR-powered receipt scanning.
 
-Employee: Can quickly submit expense claims, upload receipts, and track the status of their reimbursements in real-time.
+---
 
-➡ Seamless Expense Submission
-We make submitting expenses effortless for employees.
+## ✨ Key Features  
 
-Multi-Currency Support: Submit expenses in any currency, which are then automatically converted to the company's default currency for approvers.
+### 👤 Authentication & User Management  
+- Auto company creation on signup (with country-based currency).  
+- Role-based access → **Admin, Manager, Employee**.  
+- Admin can manage users, assign roles, and configure workflows.  
 
-Detailed Claims: Include all necessary information such as category, date, description, and amount.
+### 📝 Expense Submission (Employee Role)  
+- Submit claims with **amount, category, description, and date**.  
+- Multi-currency support with real-time conversion.  
+- View expense history (approved/rejected).  
 
-OCR for Receipts: A standout feature that allows employees to simply scan or upload a receipt. Our OCR technology automatically reads and populates the expense details, saving time and reducing manual entry errors.
+### ✅ Approval Workflow (Manager/Admin Role)  
+- Multi-level approvals with defined sequence:  
+  `Manager → Finance → Director`  
+- Managers can view pending expenses and approve/reject with comments.  
+- Conditional rules:  
+  - **Percentage rule** (e.g., 60% approvals required).  
+  - **Specific approver rule** (e.g., CFO auto-approval).  
+  - **Hybrid rule** (combine both).  
 
-⚙️ Dynamic & Conditional Approval Workflows
-This is the heart of the platform. Admins can design approval workflows that perfectly match their company's internal policies.
+### 📌 Role Permissions  
+- **Admin:** Full control over users, roles, rules, and approvals.  
+- **Manager:** Approve/reject, view team expenses, escalate if needed.  
+- **Employee:** Submit and track expenses.  
 
-Multi-Level Approvals: Define a clear sequence of approvers for any expense. For example, an expense can be routed from a direct Manager -> Finance Department -> Director, moving to the next step only upon approval from the current one.
+### 🧾 OCR for Receipts  
+- Scan and auto-generate expense entries.  
+- Extracts fields like amount, date, description, merchant name, and category.  
 
-Conditional Logic: Go beyond simple sequences with powerful conditional rules:
+---
 
-Percentage Rule: Automatically approve an expense if a certain percentage of assigned approvers (e.g., 60%) give their consent.
+## 🌍 APIs Used  
+- Country & Currency Info → [`restcountries.com`](https://restcountries.com/v3.1/all?fields=name,currencies)  
+- Currency Conversion → [`exchangerate-api`](https://api.exchangerate-api.com/v4/latest/{BASE_CURRENCY})  
 
-Specific Approver Rule: Create shortcuts where an approval from a key person (like the CFO) can override all other steps and auto-approve the claim.
+---
 
-Hybrid Rules: Combine multi-level and conditional logic for ultimate flexibility.
+## 🎨 Mockup Preview  
+🔗 [View Excalidraw Mockup](https://link.excalidraw.com/l/65VNwvy7c4X/4WSLZDTrhkA)  
 
-📊 Complete Transparency & History
-No more guessing games. Everyone involved has clear visibility into the process.
+---
 
-Status Tracking: Employees can see the exact status of their submissions—whether they are pending, approved, or rejected.
-
-Approval History: Managers and Admins can view a complete audit trail, including who approved or rejected a claim and any accompanying comments.
-
-Centralized Dashboard: Each user gets a dashboard tailored to their role, showing pending tasks and relevant expense summaries at a glance.
-
+## 🏆 Hackathon Note  
+This project was built for the **Odoo x IIT Hackathon** by **Team Odoobytes**.  
